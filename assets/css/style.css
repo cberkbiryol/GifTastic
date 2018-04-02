@@ -1,0 +1,43 @@
+.jumbotron {
+    background-image: url("../images/science.jpg");
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(240, 248, 255,0.95);
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;    
+    font-size:4rem;
+}
+
+body {    
+    font-family: 'Baloo', cursive;
+    background-color: rgba(240, 248, 255,0.6);
+    background-image: url("../images/galaxy.png");
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:18rem;
+
+}
+
+.searchbox{
+    background-color: rgba(104, 120, 150, 0.7)
+}
+
+label {
+    font-size: 2rem;
+}
+
+.btn {
+    font-size: 1.5rem;
+}
+
+#search{
+    font-size: 1.5rem;
+}
+
+#gifDiv{
+    font-family: 'Mina', sans-serif;
+}
