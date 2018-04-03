@@ -3,7 +3,7 @@ $(document).ready(function () {
     var initTopics = JSON.stringify(["quantum", "black hole", "singularity", "STEM", "math", "physics", "gravity", "sci-fi", "technology", "engineering", "artificial intelligence"]); // This needs to be a string otherwise when I reset the giftastic.topics to initTopics, the object character makes it a reference rather than an assignment and therefore it changes with the giftastic.topics array (they are memory adress based copies of each other, both dynamically changing no matter which one is changed). Hence, I used JSON.stringify to stringify and JSON.parse to reset/reassign later on.
     var giftastic = {
         baseURL: function (SRCH) {
-            return "http://api.giphy.com/v1/gifs/search" +
+            return "https://api.giphy.com/v1/gifs/search" +
                 "?" + $.param({
                     'api_key': APIkey,
                     'q': SRCH + "+science", // make sure that it gets the scince related stuff
